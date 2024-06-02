@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-links .new {
+    color: red;
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 250px;
+}
+
+.search-bar button {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #fff;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+
+.user-options a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.offer-banner {
+    background-color: yellow;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.discount{
+    position:fixed;
+    font-size: 20px;
+    font-weight: bold;
+    transform-origin: right;
+    rotate: 90deg;
+    right: 2rem;
+    top: 35rem;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+.cupouncorner{
+    font-size: 25px;
+
+}
+
+.coupons {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(196, 252, 252);
+    padding: 20px;
+}
+
+#couponheading{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    background-image: url(assets/paper.jpg);
+}
+.coupon {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.deals, .categories {
+    padding: 20px;
+    border: 0.1px solid black;
+}
+
+.deals h2, .categories h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    font-size: 45px;
+}
+
+.deal-item, .category-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.deal-item {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.deal-item-class {
+    
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.deal-item-class img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.category-item-grid{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.category-items{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.category-items h2{
+    font-size: 20px;
+    padding: 20px;
+}
+.category-items img {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: auto;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.download-app img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
